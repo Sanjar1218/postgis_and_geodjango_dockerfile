@@ -1,10 +1,5 @@
 FROM postgis/postgis
 
-ENV PYTHONUNBUFFERED 1
-ENV DEBIAN_FRONTEND noninteractive
-ENV LANG C.UTF-8
-
-ENV PGDATA=/var/run/postgresql
 ENV POSTGRES_DB=mydatabase
 ENV POSTGRES_USER=django
 ENV POSTGRES_PASSWORD=admin
