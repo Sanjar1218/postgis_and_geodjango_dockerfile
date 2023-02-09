@@ -1,8 +1,8 @@
 FROM postgis/postgis
 
-ENV POSTGRES_DB=mydatabase
-ENV POSTGRES_USER=django
-ENV POSTGRES_PASSWORD=admin
+ENV POSTGRES_DB=agesamarqand
+ENV POSTGRES_USER=sanjarbek
+ENV POSTGRES_PASSWORD=gilos123
 
 RUN apt-get update && apt-get install -y \
 python3-pip\
