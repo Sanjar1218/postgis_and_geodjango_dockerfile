@@ -1,6 +1,6 @@
 FROM postgis/postgis
 
-ENV POSTGRES_DB=agesamarqand
+ENV POSTGRES_DB=agesamarkand
 ENV POSTGRES_USER=sanjarbek
 ENV POSTGRES_PASSWORD=gilos123
 
