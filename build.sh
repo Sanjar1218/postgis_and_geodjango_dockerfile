@@ -1,1 +1,1 @@
-docker build -t my-image .
+docker build -t model2 .
