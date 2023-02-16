@@ -1,1 +1,1 @@
-docker build -t model2 .
+docker build -t model .

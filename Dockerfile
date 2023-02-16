@@ -16,6 +16,7 @@ python3-pip\
 
 RUN apt-get install -y libboost-dev libboost-filesystem-dev libboost-system-dev libboost-program-options-dev libboost-python-dev libproj-dev libicu-dev libcairo2-dev libcairomm-1.0-dev
 
+RUN apt-get install -y build-essential libssl-dev libffi-dev python3-dev python-dev
 
 COPY requirements.txt .
 RUN pip3 install -r requirements.txt

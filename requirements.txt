@@ -1,7 +1,11 @@
 django
 djangorestframework
-psycopg2
-django-cors-headers
-tzdata
 requests
+django-cors-headers
+psycopg2
+tzdata
 djangorestframework-gis
+django-geojson
+django-dynamic-model
+Pillow
+django-rest-knox
